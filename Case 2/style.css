@@ -1,0 +1,38 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 400px;
+    width: 500px;
+    border: 3px solid red;
+    }
+    .item{
+    margin: 10px;
+    border: 3px solid yellow;    
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    color: yellow;
+    justify-content: center;
+    }
+    .maincontainer:hover .item{
+       margin: 10px;
+        color: blue;
+        border: 3px solid blue;    
+        height: 50px;
+        width: 50px;
+        display: flex;
+        margin-left: 430px;
+        
+        /* justify-items: center;    */
+        
+    }
+    .maincontainer:hover{
+
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 500px;
+        border: 3px solid green;
+    }
+    
